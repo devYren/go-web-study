@@ -1,0 +1,67 @@
+# ---------- Go ----------
+# 编译生成的二进制文件
+*.exe
+*.exe~
+*.dll
+*.so
+*.dylib
+/golang-web
+bin/
+dist/
+
+# 测试相关
+*.test
+*.out
+coverage.txt
+coverage.html
+profile.out
+
+# Go workspace 文件
+go.work
+go.work.sum
+
+# 依赖目录（使用 go modules 时不应提交）
+vendor/
+
+# 环境变量文件
+.env
+.env.local
+*.env
+
+# ---------- IDE ----------
+# JetBrains (GoLand / IntelliJ)
+.idea/
+*.iml
+
+# VS Code
+.vscode/
+*.code-workspace
+
+# Vim
+*.swp
+*.swo
+*~
+
+# ---------- OS ----------
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+Icon?
+
+# Windows
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+
+# Linux
+*~
+
+# ---------- Logs & tmp ----------
+*.log
+logs/
+tmp/
+temp/
+
+# ---------- Claude ----------
+.claude/
